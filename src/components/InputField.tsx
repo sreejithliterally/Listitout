@@ -8,7 +8,7 @@ interface Props{
 const InputField = ({todo,setTodo}:Props) => {
   return (
     <form className='input'>
-    <input type='input' 
+    <input type='text' 
     value={todo}
     onChange={
       (e)=>setTodo(e.target.value)
